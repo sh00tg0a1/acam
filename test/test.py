@@ -2,6 +2,7 @@
 
 from acam import WordTree, get_word_list
 import time
+import os
 
 
 def test_acam():
@@ -17,7 +18,7 @@ def test_acam():
 
 def test_search():
     cur = time.time()
-    word_list = get_word_list('chinese_words.txt')
+    word_list = get_word_list(os.path.join(os.path.dirname(__file__), 'chinese_words.txt'))
     print time.time() - cur
 
     # 构建一个次数
