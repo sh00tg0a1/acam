@@ -1,21 +1,11 @@
 # coding: utf-8
 
 from collections import deque
+from wordlist import *
 
-
-def get_word_list(file_name):
-    wf = open(file_name)
-
-    words_str = wf.read()
-    # 使用 Unicode 会慢很多, 差了10倍....
-    # words_str = unicode(words_str, 'utf-8')
-
-    words_str = words_str.replace('\t', ' ')
-    words_str = words_str.replace('\n', ' ')
-
-    word_list = words_str.split(' ')
-
-    return word_list
+get_word_list = get_word_list
+Pattern = Pattern
+WordList = WordList
 
 
 class ACAMExp(Exception):
@@ -147,7 +137,7 @@ class WordTree(object):
     def build(self, wlist):
         # 首先构建
         for i in range(len(wlist)):
-            self.__add_word(wlist[i], i)
+            self.__add_word(wlist[i][0] if isinstance(wlist[i], list) else wlist[i], i)
 
         # 构建 AC 自动机
         def find_failure(node):
