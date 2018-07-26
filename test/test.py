@@ -18,8 +18,10 @@ def test_acam():
 
 def test_search():
     cur = time.time()
-    word_list = WordList(os.path.join(os.path.dirname(__file__), 'for_word_tree/chinese_words.txt'))
-    # word_list = WordList(os.path.join(os.path.dirname(__file__), 'for_word_tree/非法关键字.txt'), Pattern(3, '\t', True))
+    # word_list = WordList(os.path.join(os.path.dirname(__file__), 'for_word_tree/chinese_words.txt'))
+    word_list = WordList(os.path.join(os.path.dirname(__file__), 'for_word_tree/非法关键字.txt'), Pattern(3, '\t', True))
+    # word_list = WordList(os.path.join(os.path.dirname(__file__), 'for_word_tree/敏感词库/敏感词/敏感词库大全.txt'), Pattern(3, '\t', True))
+
     print time.time() - cur
 
     # 构建一个次数
@@ -50,6 +52,7 @@ def test_search():
             if isinstance(word_list[k], list) else word_list[k], result[k]
 
     print time.time() - cur
+
 
 if __name__ == "__main__":
     # test_acam()

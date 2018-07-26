@@ -1,3 +1,4 @@
+# /usr/bin/env python3
 # coding: utf-8
 
 
@@ -35,8 +36,12 @@ class WordList(object):
 
             first_line = True
             for line in wf:
-                # 有表头的情况下跳过第一行
+                # 处理特殊字符
                 line = line.strip()
+                if not line:
+                    continue
+
+                # 有表头的情况下跳过第一行
                 if pattern.header and first_line:
                     first_line = False
                     continue
@@ -46,10 +51,9 @@ class WordList(object):
                     # 如果转成 Unicode 会慢很多, 差了10倍....
                     # words_str = unicode(words_str, 'utf-8')
 
-                    self.content += line.split(pattern.column_delimiter)
+                    self.content += [c for c in line.split(pattern.column_delimiter) if c]
                 else:
-                    columns = line.split(pattern.column_delimiter)
-                    columns = [c for c in columns if c]
+                    columns = [c for c in line.split(pattern.column_delimiter) if c]
                     self.content.append(columns)
 
     def get_word_list(self):

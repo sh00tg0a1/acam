@@ -63,7 +63,8 @@ class WordTree(object):
 
     def dftraverse(self, func=None):
         """
-        Traverse the whole tree
+        深度优先变量树
+        :param func: 遍历时执行的操作
         :return:
         """
 
@@ -91,6 +92,11 @@ class WordTree(object):
                 traverse_queue.append(child)
 
     def bftraverse(self, func=None):
+        """
+        广度优先变量树
+        :param func: 遍历时需要进行的操作，默认传入参数 Node 类型的变量
+        :return:
+        """
         def print_v(node):
             if node.par is None:
                 print 'Root->'
@@ -135,9 +141,19 @@ class WordTree(object):
         self.len += 1
 
     def build(self, wlist):
+        """
+        增量方式添加词语
+        :param wlist: 待添加的词
+        :return:
+        """
         # 首先构建
         for i in range(len(wlist)):
-            self.__add_word(wlist[i][0] if isinstance(wlist[i], list) else wlist[i], i)
+            if isinstance(wlist[i], list):
+                word = wlist[i][0]
+            else:
+                word = wlist[i]
+
+            self.__add_word(word, i)
 
         # 构建 AC 自动机
         def find_failure(node):
@@ -173,6 +189,11 @@ class WordTree(object):
         WordTree.bftraverse(self, find_failure)
 
     def search_one(self, word):
+        """
+        查询一个关键词
+        :param word: 关键词
+        :return: 关键词在 word_list 中的位置
+        """
         cur = self.root
         failed = False
         for c in word:
@@ -192,14 +213,19 @@ class WordTree(object):
 
         return -1
 
-    def search_multi(self, word):
+    def search_multi(self, text):
+        """
+        查找多个匹配的模式
+        :param text: 待处理字符串
+        :return:
+        """
         cur = self.root
         result = dict()
-        for i in range(len(word)):
+        for i in range(len(text)):
             step_failed = True
             while True:
                 for node in cur.children:
-                    if word[i] == node.value:
+                    if text[i] == node.value:
                         cur = node
                         step_failed = False
                         break
