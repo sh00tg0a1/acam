@@ -1,0 +1,84 @@
+配件列表																								
+配件类别	配件编号	 配件名称 	 英文名称 	 主要规格参数 	RX4000-T1主模块	MX6000-T1主模块	MX8000-T1主模块	RX4010-T1主模块	MX6010-T1主模块	MX8010-T1主模块	RX4000-T2主模块	MX6000-T2主模块	MX8000-T2主模块	VGP4000-T1主模块	VGP6000-T1主模块	VGP8000-T1主模块	VGP4010-T1主模块	VGP6010-T1主模块	VGP8010-T1主模块	VGP4000-T2主模块	VGP6000-T2主模块	VGP8000-T2主模块	AnyShare虚拟化主模块	AnyShare软件版主模块
+光纤卡	MP-GA-HB-QL-H01	QLogic 双端口8Gb光纤通道HBA	Qlogic 8GB FC HBA	8Gb/双通道/PCI-E/光纤通道卡	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HB-QL-H02	QLogic 双端口16Gb光纤通道HBA	Qlogic 16Gb FC HBA	16Gb/双通道/PCI-E/光纤通道卡	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HB-EM-H03	Emulex 双端口16Gb 光纤接口	Emulex  16Gb FC HBA	16Gb/双通道/PCI-E/光纤通道卡	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HB-XX-H01	Emulex LPE 双端口8Gb光纤通道HBA	Emulex LPE dual port 8Gb fibre channel HBA	8Gb/双通道/PCI-E/光纤通道卡	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-FC-XX-H02	8Gb光纤模块	8Gb FC SFP	8Gb/FC/多模	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-FC-XX-H01	单模光纤模块	Single Mode Fiber	FC/10KMSFP/单模	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+网络适配器	MP-GA-NC-RJ-H01	Intel 双口千兆网卡 RJ45接口	Intel 1GE RJ45	1000Mbps/PCI-E/RJ45接口/双口	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	×	×
+	MP-GA-NC-RJ-H02	Intel 双口万兆网卡 RJ45接口	Intel 10GE RJ45	10000Mbps/PCI-E/RJ45接口/双口	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-NC-FB-H03	Intel 双口万兆网卡 光纤接口	Intel 10GE FC	10000Mbps/PCI-E/FCoE/双口	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	×	×
+	MP-GA-SW-HW-H01	24口标准交换机	24-Port Standard Switch	1000Mbps/24 Base-T端口/4*10GE SFP+端口	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	×	×
+	MP-GA-SW-HW-H02	48口标准交换机	48-Port Standard Switch	1000Mbps/48 Base-T端口/4*10GE SFP+端口	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	×	×
+	MP-GA-SW-HW-H03	48口万兆光纤交换机模块	48 port 10Gbps Switch	10000Mbps/48 Base-T端口/4*10GE SFP+端口	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SW-HW-H04	万兆多模光纤光模块	10Gb SFP+ Transceiver module for Switch	10000Mbps/FC/多模	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+UPS	MP-GA-UP-AP-H01	容灾网关专用UPS选件	UPS	容灾网关专用UPS选件	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+内存	MP-GA-DE-SX-H01	16GB内存	16GB Memory	16G/DDR4/ECC/2400	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-DE-SX-H02	32GB内存	32GB Memory	32G/DDR3/ECC/1600	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+硬盘	PA-CM-HD-HW-H01	SATA 2TB硬盘 3.5英寸	SATA 2TB HD of 3.5	2TB/SATA/7200 rpm/128M缓存/3.5英寸	_	_	_	×	×	×	×	×	×	_	_	_	×	×	×	×	×	×	×	×
+	PA-CM-HD-HW-H03	SATA 4TB硬盘 3.5英寸	SATA 4TB HD of 3.5	4TB/SATA/7200 rpm/128M缓存/3.5英寸	_	_	_	×	×	×	×	×	×	_	_	_	×	×	×	×	×	×	×	×
+	PA-CM-HD-HW-H04	NLSAS 2TB硬盘 3.5英寸	"NLSAS 2TB HD of 3.5"""	2TB/NLSAS/7200 rpm/128M缓存/3.5英寸	_	_	_	×	×	×	×	×	×	_	_	_	×	×	×	×	×	×	×	×
+	PA-CM-HD-HW-H06	NLSAS 4TB硬盘 3.5英寸	"NLSAS 4TB HD of 3.5"""	4TB/NLSAS/7200 rpm/128M缓存/3.5英寸	_	_	_	×	×	×	×	×	×	_	_	_	×	×	×	×	×	×	×	×
+	PA-CM-HD-HW-H13	SATA 6TB硬盘 3.5英寸	SATA 6TB HD of 3.5	6TB/SATA/7200 rpm/128M缓存/3.5英寸	_	_	_	×	×	×	×	×	×	_	_	_	×	×	×	×	×	×	×	×
+	PA-CM-HD-HW-H11	NLSAS 6TB硬盘 3.5英寸	"NLSAS 6TB HD of 3.5"""	6TB/NLSAS/7200 rpm/128M缓存/3.5英寸	_	_	_	×	×	×	×	×	×	_	_	_	×	×	×	×	×	×	×	×
+	PA-SP-HD-ST-H04	NLSAS 2TB硬盘 3.5英寸	"NLSAS 2TB HD of  3.5"""	2TB/NLSAS/7200 rpm/128M缓存/3.5英寸	×	×	×	×	×	×	_	_	_	×	×	×	×	×	×	_	_	_	×	×
+	PA-SP-HD-ST-H06	NLSAS 4TB硬盘 3.5英寸	"NLSAS 4TB HD of  3.5"""	4TB/NLSAS/7200 rpm/128M缓存/3.5英寸	×	×	×	×	×	×	_	_	_	×	×	×	×	×	×	_	_	_	×	×
+	PA-SP-HD-ST-H01	SATA 2TB硬盘 3.5英寸	SATA 2TB 3.5	2TB/SATA/7200 rpm/128M缓存/3.5英寸	×	×	×	×	×	×	_	_	_	×	×	×	×	×	×	_	_	_	×	×
+	PA-SP-HD-ST-H03	SATA 4TB硬盘 3.5英寸	SATA 4TB 3.5	4TB/SATA/7200 rpm/128M缓存/3.5英寸	×	×	×	×	×	×	_	_	_	×	×	×	×	×	×	_	_	_	×	×
+	MP-GA-HD-ST-H01	NLSAS 6TB硬盘 3.5英寸	"NLSAS 6TB HD of  3.5"""	6TB/NLSAS/7200 rpm/128M缓存/3.5英寸	×	×	×	×	×	×	_	_	_	×	×	×	×	×	×	_	_	_	×	×
+	MP-GA-HD-ST-H02	SATA 6TB硬盘 3.5英寸	"SATA  6TB HD of  3.5"""	6TB/SATA/7200 rpm/128M缓存/3.5英寸	×	×	×	×	×	×	_	_	_	×	×	×	×	×	×	_	_	_	×	×
+	MP-GA-HD-HG-H04	NLSAS 2TB硬盘 3.5英寸 	"NLSAS 2TB HD of  3.5"""	2TB/NLSAS/7200 rpm/64M缓存/3.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HG-H05	NLSAS 4TB硬盘 3.5英寸	"NLSAS 4TB HD of  3.5"""	4TB/NLSAS/7200 rpm/64M缓存/3.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HG-H06	NLSAS 6TB硬盘 3.5英寸	"NLSAS 6TB HD of  3.5"""	6TB/NLSAS/7200 rpm/64M缓存/3.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HG-H01	SATA 2TB硬盘 3.5英寸 	"SATA 2TB HD of  3.5"""	2TB/SATA/7200 rpm/64M缓存/3.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HG-H02	SATA 4TB硬盘 3.5英寸 	"SATA 4TBHD of  3.5"""	4TB/SATA/7200 rpm/64M缓存/3.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HG-H03	SATA 6TB硬盘 3.5英寸	"SATA  6TB HD of  3.5"""	6TB/SATA/7200 rpm/64M缓存/3.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HC-H01	NLSAS 2TB硬盘 3.5英寸	"NLSAS 2TB HD of  3.5"""	2TB/NLSAS/7200 rpm/128M缓存/3.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HC-H02	NLSAS 4TB硬盘 3.5英寸	"NLSAS 4TB HD of  3.5"""	4TB/NLSAS/7200 rpm/128M缓存/3.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HC-H03	NLSAS 6TB硬盘 3.5英寸	"NLSAS 6TB HD of  3.5"""	6TB/NLSAS/7200 rpm/128M缓存/3.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HC-H04	SATA 2TB硬盘 3.5英寸	"SATA 2TB HD of  3.5"""	2TB/SATA/7200 rpm/128M缓存/3.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HC-H05	SATA 4TB硬盘 3.5英寸	"SATA 4TB HD of  3.5"""	4TB/NLSAS/7200 rpm/128M缓存/3.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HC-H06	SATA 6TB硬盘 3.5英寸	"SATA  6TB HD of  3.5"""	6TB/SATA/7200 rpm/128M缓存/3.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HW-H01	NLSAS 2TB硬盘 3.5英寸	"NLSAS 2TB HD of  3.5"""	2TB/NLSAS/7200 rpm/128M缓存/3.5英寸	×	×	×	_	_	_	×	×	×	×	×	×	_	_	_	×	×	×	×	×
+	MP-GA-HD-HW-H02	NLSAS 4TB硬盘 3.5英寸	"NLSAS 4TB HD of  3.5"""	4TB/NLSAS/7200 rpm/128M缓存/3.5英寸	×	×	×	_	_	_	×	×	×	×	×	×	_	_	_	×	×	×	×	×
+	MP-GA-HD-HW-H03	NLSAS 6TB硬盘 3.5英寸	"NLSAS 6TB HD of  3.5"""	6TB/NLSAS/7200 rpm/128M缓存/3.5英寸	×	×	×	_	_	_	×	×	×	×	×	×	_	_	_	×	×	×	×	×
+	MP-GA-HD-HW-H04	SATA 2TB硬盘 3.5英寸	"SATA 2TB HD of  3.5"""	2TB/SATA/7200 rpm/128M缓存/3.5英寸	×	×	×	_	_	_	×	×	×	×	×	×	_	_	_	×	×	×	×	×
+	MP-GA-HD-HW-H05	SATA 4TB硬盘 3.5英寸	"SATA 4TB HD of  3.5"""	4TB/NLSAS/7200 rpm/128M缓存/3.5英寸	×	×	×	_	_	_	×	×	×	×	×	×	_	_	_	×	×	×	×	×
+	MP-GA-HD-HW-H06	SATA 6TB硬盘 3.5英寸	"SATA  6TB HD of  3.5"""	6TB/SATA/7200 rpm/128M缓存/3.5英寸	×	×	×	_	_	_	×	×	×	×	×	×	_	_	_	×	×	×	×	×
+	PA-SP-HD-ST-H07	SAS 600GB硬盘 3.5英寸	"SAS 600GB HD of  3.5"""	600GB/SAS/15000 rpm/16M缓存/3.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HC-H07	SAS 600GB硬盘 3.5英寸	"SAS 600GB HD of  3.5"""	600GB/SAS/15000 rpm/16M缓存/3.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HW-H07	SAS 600GB硬盘 3.5英寸	"SAS 600GB HD of  3.5"""	600GB/SAS/15000 rpm/16M缓存/3.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	PA-SP-HD-ST-H08	SAS 600GB硬盘 2.5英寸	"SAS 600GB HD of  2.5"""	600GB/SAS/10000 rpm/64M缓存/2.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	PA-SP-HD-ST-H09	SAS 900GB硬盘 2.5英寸	"SAS 900GB HD of  2.5"""	900GB/SAS/10000 rpm/64M缓存/2.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-ST-H03	SAS 1200GB硬盘2.5英寸	"HDD SAS 10K 1200GB 2.5"""	1200GB/SAS/10000 rpm/128M缓存/2.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HW-H08	SAS 600GB硬盘 2.5英寸	"SAS 600GB HD of  2.5"""	600GB/SAS/10000 rpm/64M缓存/2.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HW-H09	SAS 900GB硬盘 2.5英寸	"SAS 900GB HD of  2.5"""	900GB/SAS/10000 rpm/64M缓存/2.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HW-H10	SAS 1200GB硬盘2.5英寸	"HDD SAS 10K 1200GB 2.5"""	1200GB/SAS/10000 rpm/128M缓存/2.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HC-H08	SAS 600GB硬盘 2.5英寸	"SAS 600GB HD of  2.5"""	600GB/SAS/10000 rpm/64M缓存/2.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HC-H09	SAS 900GB硬盘 2.5英寸	"SAS 900GB HD of  2.5"""	900GB/SAS/10000 rpm/64M缓存/2.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HC-H10	SAS 1200GB硬盘2.5英寸	"HDD SAS 10K 1200GB 2.5"""	1200GB/SAS/10000 rpm/128M缓存/2.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HW-H11	"SAS 600GB HD of  2.5"" "	SAS 600GB硬盘 2.5英寸	600GB/SAS/10000 rpm/64M缓存/2.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HW-H12	"SAS 900GB HD of  2.5"""	SAS 900GB硬盘 2.5英寸	900GB/SAS/10000 rpm/64M缓存/2.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HW-H13	"HDD SAS 10K 1200GB 2.5"""	SAS 1200GB硬盘 2.5英寸	1200GB/SAS/10000 rpm/128M缓存/2.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HC-H11	"SAS 600GB HD of  2.5"" "	SAS 600GB硬盘 2.5英寸	600GB/SAS/10000 rpm/64M缓存/2.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HC-H12	"SAS 900GB HD of  2.5"""	SAS 900GB硬盘 2.5英寸	900GB/SAS/10000 rpm/64M缓存/2.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-HD-HC-H13	"HDD SAS 10K 1200GB 2.5"""	SAS 1200GB硬盘 2.5英寸	1200GB/SAS/10000 rpm/128M缓存/2.5英寸	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+SSD	MP-GA-SD-ST-H01	200GB SAS SSD 2.5英寸	"200GB SAS SSD 2.5"""	200GB/SAS 12Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-ST-H02	400GB SAS SSD 2.5英寸	"400GB SAS SSD 2.5"""	400GB/SAS 12Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-ST-H03	800GB SAS SSD 2.5英寸	"800GB SAS SSD 2.5"""	800GB/SAS 12Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-IN-H01	400GB SATA SSD 2.5英寸	"400GB SATA SSD 2.5"""	400GB/SATA 6Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-IN-H02	800GB SATA SSD 2.5英寸	"800GB SATA SSD 2.5"""	800GB/SATA 6Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-IN-H03	1200GB SATA SSD 2.5英寸	"1200GB SATA SSD 2.5"""	1200GB/SATA 6Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-HW-H01	200GB SAS SSD 2.5英寸	"200GB SAS SSD 2.5"""	200GB/SAS 12Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-HW-H02	400GB SAS SSD 2.5英寸	"400GB SAS SSD 2.5"""	400GB/SAS 12Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-HW-H03	800GB SAS SSD 2.5英寸	"800GB SAS SSD 2.5"""	800GB/SAS 12Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-HW-H04	200GB SAS SSD 2.5英寸	"200GB SAS SSD 2.5"""	200GB/SAS 12Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-HW-H05	400GB SAS SSD 2.5英寸	"200GB SAS SSD 2.5"""	400GB/SAS 12Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-HW-H06	800GB SAS SSD 2.5英寸	"200GB SAS SSD 2.5"""	800GB/SAS 12Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-HC-H01	200GB SAS SSD 2.5英寸	"200GB SAS SSD 2.5"""	200GB/SAS 12Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-HC-H02	400GB SAS SSD 2.5英寸	"400GB SAS SSD 2.5"""	400GB/SAS 12Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-HC-H03	800GB SAS SSD 2.5英寸	"800GB SAS SSD 2.5"""	800GB/SAS 12Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-HC-H04	200GB SAS SSD 2.5英寸	"200GB SAS SSD 2.5"""	200GB/SAS 12Gbs/MLC2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-HC-H05	400GB SAS SSD 2.5英寸	"200GB SAS SSD 2.5"""	400GB/SAS 12Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
+	MP-GA-SD-HC-H06	800GB SAS SSD 2.5英寸	"200GB SAS SSD 2.5"""	800GB/SAS 12Gbs/MLC/2.5英寸/企业级SSD	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×	×
